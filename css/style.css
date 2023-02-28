@@ -1,0 +1,68 @@
+/* Variables */
+/* Mixins */
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #343a40;
+  background-color: #f8f9fa;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Main */
+main {
+  padding: 20px;
+}
+main section {
+  margin: 20px 0;
+}
+main section h2 {
+  margin-bottom: 10px;
+}
+main section p {
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
